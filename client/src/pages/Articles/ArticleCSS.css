@@ -1,0 +1,224 @@
+body {
+  background-color: white;
+}
+
+.navbar {
+  background: #343a40;
+  padding: 1rem 4rem;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+}
+
+#navbarNav>ul>li:nth-child(n)>a {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 0.8rem;
+}
+
+#navbarNav>ul>li:nth-child(n)>a:hover {
+  color: greenyellow;
+}
+
+#navbarNav>button {
+  color: whitesmoke;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: greenyellow;
+  padding: 0 0.8rem;
+  border-radius: 30px;
+}
+
+#navbarNav>button:hover {
+  color: whitesmoke;
+  background-color: green;
+}
+
+.btn .btn-primary btn-xl {
+  color: whitesmoke;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: greenyellow;
+  padding: 0 0.8rem;
+  border-radius: 30px;
+}
+
+
+.container-md-fluid {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+.mainHeading {
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.checkbox.checbox-switch {
+  padding-left: 0;
+}
+
+.checkbox.checbox-switch label,
+.checkbox-inline.checbox-switch {
+  display: inline-block;
+  position: relative;
+  padding-left: 0;
+}
+
+.checkbox.checbox-switch label input,
+.checkbox-inline.checbox-switch input {
+  display: none;
+}
+
+.checkbox.checbox-switch label span,
+.checkbox-inline.checbox-switch span {
+  width: 35px;
+  border-radius: 20px;
+  height: 18px;
+  border: 1px solid #dbdbdb;
+  background-color: red;
+  border-color: red;
+  box-shadow: rgb(223, 223, 223) 0px 0px 0px 0px inset;
+  transition: border 0.4s ease 0s, box-shadow 0.4s ease 0s;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.checkbox.checbox-switch label span:before,
+.checkbox-inline.checbox-switch span:before {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  content: " ";
+  top: 0;
+  position: relative;
+  left: 0px;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  top: -2px;
+}
+
+.checkbox.checbox-switch label>input:checked+span:before,
+.checkbox-inline.checbox-switch>input:checked+span:before {
+  left: 16px;
+  top: -2px;
+}
+
+/* Switch Primary */
+.checkbox.checbox-switch.switch-primary label>input:checked+span,
+.checkbox-inline.checbox-switch.switch-primary>input:checked+span {
+  background-color: rgb(0, 105, 217);
+  border-color: rgb(0, 105, 217);
+  /*box-shadow: rgb(0, 105, 217) 0px 0px 0px 8px inset;*/
+  transition: border 0.4s ease 0s, box-shadow 0.4s ease 0s, background-color 1.2s ease 0s;
+}
+
+.checkbox.checbox-switch.switch-primary label>input:checked:disabled+span,
+.checkbox-inline.checbox-switch.switch-primary>input:checked:disabled+span {
+  background-color: red;
+  border-color: red;
+  /* box-shadow: rgb(109, 163, 221) 0px 0px 0px 8px inset;*/
+  transition: border 0.4s ease 0s, box-shadow 0.4s ease 0s, background-color 1.2s ease 0s;
+}
+
+#summary {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#summary p.collapse:not(.show) {
+  height: 50px !important;
+  overflow: hidden;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+#summary p.collapsing {
+  min-height: 50px !important;
+}
+
+#summary a.collapsed:after {
+  content: '+ Read More';
+}
+
+#summary a:not(.collapsed):after {
+  content: '- Read Less';
+}
+
+.articleBox {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.container-article {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.articleText {
+  font-size: 18px;
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: white !important;
+}
+
+/* Css for Navbar (After Login) */
+.avatar {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+#navbarNav>ul>li:nth-child(n)>a {
+  text-decoration: none;
+}
+
+#navbarNav>ul>li:nth-child(n)>a:hover {
+  text-decoration: none;
+}
+
+.navbar .dropdown-menu i {
+  font-size: 16px;
+  min-width: 22px;
+}
+
+.navbar .dropdown.open>a {
+  background: none !important;
+}
+
+.navbar .dropdown-menu {
+  border-radius: 1px;
+  border-color: #e5e5e5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.navbar .dropdown-menu li a {
+  text-decoration: none;
+  color: #777;
+  padding: 8px 20px;
+  line-height: normal;
+}
+
+.navbar .dropdown-menu li a:hover,
+.navbar .dropdown-menu li a:active {
+  color: #333;
+}
+
+.navbar .dropdown-menu .material-icons {
+  font-size: 21px;
+  line-height: 16px;
+  vertical-align: middle;
+  margin-top: -2px;
+}

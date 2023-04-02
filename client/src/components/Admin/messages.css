@@ -1,0 +1,21 @@
+.table-m,
+.tr-m,
+.th-m,
+.td-m {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.alcenter{
+    display: flex;
+    justify-content: center;
+    
+}
+.td-m {
+    text-align: center;
+}
+
+.h2-m{
+    padding-left: 20px;
+}

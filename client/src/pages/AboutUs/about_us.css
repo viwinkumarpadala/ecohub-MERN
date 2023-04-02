@@ -1,0 +1,237 @@
+.navbar {
+    background: #343a40;
+    padding: 1rem 4rem;
+  }
+  .navbar .navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  #navbarNav > ul > li:nth-child(n) > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0 0.8rem;
+  }
+  #navbarNav > ul > li:nth-child(n) > a:hover {
+    text-decoration: none;
+    color: greenyellow;
+  }
+  #navbarNav > button {
+    color: whitesmoke;
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: greenyellow;
+    padding: 0 0.8rem;
+    border-radius: 30px;
+  }
+  #navbarNav > button:hover {
+    color: whitesmoke;
+    background-color: green;
+  }
+  
+  .btn .btn-primary btn-xl {
+    color: whitesmoke;
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: greenyellow;
+    padding: 0 0.8rem;
+    border-radius: 30px;
+  }
+  
+  @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+  
+  .members {
+    font-family: "Montserrat", sans-serif;
+    color: #8d97ad;
+    font-weight: 300;
+  }
+  
+  .members h1,
+  .members h2,
+  .members h3,
+  .members h4,
+  .members h5,
+  .members h6 {
+    color: #3e4555;
+  }
+  
+  .members .font-weight-medium {
+    font-weight: 500;
+  }
+  
+  .members .bg-light {
+    background-color: #f4f8fa !important;
+  }
+  
+  .members .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+  }
+  
+  .members .pro-pic {
+    min-height: 200px;
+  }
+  
+  .members .pro-pic .card-img-overlay ul {
+    top: 50%;
+  }
+  
+  .members .pro-pic .card-img-overlay ul li a {
+    -webkit-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+  }
+  
+  .members .pro-pic .card-img-overlay ul li a:hover {
+    -webkit-transform: translate3d(0px, -5px, 0px);
+    transform: translate3d(0px, -5px, 0px);
+  }
+  
+  .members .pro-pic:hover .card-img-overlay {
+    display: block;
+  }
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  .social-network a.icoFacebook:hover {
+    background-color: #3b5998;
+  }
+  
+  .social-network a.icoTwitter:hover {
+    background-color: #33ccff;
+  }
+  
+  .social-network a.icoJoomla:hover {
+    background-color: #bd3518;
+  }
+  
+  .social-network a.icoVimeo:hover {
+    background-color: #0590b8;
+  }
+  
+  .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  
+  .social-network a.icoGithub:hover {
+    background-color: #464545;
+  }
+  
+  .social-network a.icoRss:hover i,
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoTwitter:hover i,
+  .social-network a.icoGoogle:hover i,
+  .social-network a.icoVimeo:hover i,
+  .social-network a.icoLinkedin:hover i .social-network a.icoGithub:hover i {
+    color: #fff;
+  }
+  
+  a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44bcdd;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .socialMediaLink {
+    background-color: #d3d3d3;
+  }
+  
+  /* Css for Navbar (After Login) */
+  .avatar {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+  }
+  
+  #navbarNav > ul > li:nth-child(n) > a {
+    text-decoration: none;
+  }
+  #navbarNav > ul > li:nth-child(n) > a:hover {
+    text-decoration: none;
+  }
+  
+  .navbar .dropdown-menu i {
+    font-size: 16px;
+    min-width: 22px;
+  }
+  .navbar .dropdown.open > a {
+    background: none !important;
+  }
+  .navbar .dropdown-menu {
+    border-radius: 1px;
+    border-color: #e5e5e5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  .navbar .dropdown-menu li a {
+    text-decoration: none;
+    color: #777;
+    padding: 8px 20px;
+    line-height: normal;
+  }
+  .navbar .dropdown-menu li a:hover,
+  .navbar .dropdown-menu li a:active {
+    color: #333;
+  }
+  .navbar .dropdown-menu .material-icons {
+    font-size: 21px;
+    line-height: 16px;
+    vertical-align: middle;
+    margin-top: -2px;
+  }
+  
+  .background{
+    width: 345px;
+    height: 360px;
+  }

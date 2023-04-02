@@ -1,0 +1,42 @@
+.table-sd,
+.tr-sd,
+.th-sd,
+.td-sd {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.alcenter{
+    display: flex;
+    justify-content: center;
+    
+}
+.alcenter2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.td-sd {
+    font-size: 16px;
+    justify-content: center;
+}
+
+/* .head-sd{
+    margin: 0px;
+} */
+.b-sd{
+    font-size: 20px;
+}
+
+/* .bodymargin{
+    margin: 15px;
+} */
+.button-sd{
+    font-size: 15px;
+}
+.h2-sd{
+    padding-left: 20px;
+}

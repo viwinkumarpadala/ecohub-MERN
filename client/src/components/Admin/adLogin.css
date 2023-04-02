@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+.body-ad {
+    background: white;
+    margin: 15px;
+    margin-top: 50px;
+}
+
+.login-ad,
+.login-ad * {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+}
+
+.login-ad {
+  max-width: 380px;
+  margin: 0 auto;
+  border-radius: 11px;
+  overflow: hidden;
+  box-shadow: 0 0 15px grey;
+  margin-top: 120px;
+}
+
+
+
+.content-ad {
+    /* padding: 30px; */
+    /* background: white; */
+    /* position: relative; */
+}
+.c-a{
+    padding: 30px;
+    background: white;
+    position: relative;
+}
+
+.header-ad {
+    margin-bottom: 15px;
+    text-align: center;
+    text-align: center;
+    color: rgb(56, 11, 11);
+    font-family:cursive;
+       
+}
+
+.input-ad {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 2px solid rgb(36, 29, 29,0.36);
+  background:transparent;
+  outline: none;
+  transition: border-color 0.5s;
+}
+    
+
+
+.input-ad:focus {
+    border-color: black;
+}
+
+.input-ad::placeholder {
+    color: #aaaaaa;
+}
+
+.button-ad {
+  background: black;
+  color:rgba(255, 255, 255, 0.733);
+  border-radius: 13px;
+  border:#352404;
+  height: 40px;
+  width:100%;
+  margin:10px 0px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: cursive;
+}
+
+.button-ad:active {
+    background: grey;
+    color:white;
+}

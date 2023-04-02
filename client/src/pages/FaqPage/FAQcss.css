@@ -1,0 +1,442 @@
+.mainTitle {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+.resizeImageToSlider {
+  height: 150px;
+  max-width: 200px;
+}
+
+.container1 {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+}
+
+.textonImage {
+  background-color: blueviolet;
+}
+
+.faqTitle {
+  padding: 0px;
+  font-size: 30px;
+  font-family: Montserrat-Regular;
+}
+
+.faqBox {
+  margin-top: 0px;
+}
+
+.contain {
+  max-width: 700px;
+}
+
+.faqbackground {
+  margin-top: 20px;
+  font-family: Montserrat-Regular;
+  padding-right: 2px;
+  font-size: 25px;
+  padding-left: 25px;
+}
+
+/* .accordion-button{
+    padding: 0px;
+} */
+
+.accordion-header {
+  padding: 0px;
+}
+
+.accordion-body {
+  padding: 5px;
+  padding-top: 10px;
+}
+
+.accordion-button .collapsed {
+  padding-left: 5px;
+}
+
+.accordion-flush .accordion-collapse {
+  border-width: 0;
+  padding: 7px;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  border-radius: 0;
+  padding-left: 14px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("../../fonts/montserrat/Montserrat-Regular.ttf");
+  /* src: url('../../fonts/montserrat/') */
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../../fonts/montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url("../../fonts/montserrat/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("../../fonts/montserrat/Montserrat-Medium.ttf");
+}
+
+.faqAnswer {
+  font-family: Montserrat-Regular;
+}
+
+.faqQuestion {
+  font-family: Montserrat-Bold;
+}
+
+/*---------------------------------------------*/
+
+/*---------------------------------------------*/
+.input_faq {
+  outline: none;
+  border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+.input_textarea:focus,
+.input_faq:focus {
+  border-color: transparent !important;
+}
+
+.input_faq::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.input_faq:-moz-placeholder {
+  color: #999999;
+}
+
+.input_faq::-moz-placeholder {
+  color: #999999;
+}
+
+.input_faq:-ms-input-placeholder {
+  color: #999999;
+}
+
+.input_textarea::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.input_textarea:-moz-placeholder {
+  color: #999999;
+}
+
+.input_textarea::-moz-placeholder {
+  color: #999999;
+}
+
+.input_textarea:-ms-input-placeholder {
+  color: #999999;
+}
+
+/*---------------------------------------------*/
+
+/*//////////////////////////////////////////////////////////////////
+  [ Contact 1 ]*/
+
+.contact1 {
+  width: 100%;
+  min-height: 100%;
+  padding: 15px;
+
+  /* background: #009bff;
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+    background: -o-linear-gradient(left, #0072ff, #00c6ff);
+    background: -moz-linear-gradient(left, #0072ff, #00c6ff);
+    background: linear-gradient(left, #0072ff, #00c6ff); */
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-contact1 {
+  width: 1163px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 45px 130px 88px 148px;
+}
+
+/*------------------------------------------------------------------
+  [  ]*/
+.contact1-pic {
+  width: 296px;
+}
+
+.contact1-pic img {
+  max-width: 100%;
+}
+
+/*------------------------------------------------------------------
+  [  ]*/
+.contact1-form {
+  width: 390px;
+}
+
+.contact1-form-title {
+  display: block;
+  font-family: Montserrat-ExtraBold;
+  font-size: 24px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 44px;
+}
+
+.input_faq.input1 {
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px;
+}
+
+.input_faq.input1+.shadow-input1 {
+  border-radius: 25px;
+}
+
+.input_textarea.input1 {
+  min-height: 150px;
+  border-radius: 25px;
+  padding: 12px 30px;
+}
+
+.input_textarea.input1+.shadow-input1 {
+  border-radius: 25px;
+}
+
+/*---------------------------------------------*/
+.wrap-input1 {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.input1 {
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+}
+
+.shadow-input1 {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px;
+  color: rgba(87, 184, 70, 0.5);
+}
+
+.input1:focus+.shadow-input1 {
+  -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
+  animation: anim-shadow 0.5s ease-in-out forwards;
+}
+
+@-webkit-keyframes anim-shadow {
+  to {
+    box-shadow: 0px 0px 80px 30px;
+    opacity: 0;
+  }
+}
+
+@keyframes anim-shadow {
+  to {
+    box-shadow: 0px 0px 80px 30px;
+    opacity: 0;
+  }
+}
+
+/*---------------------------------------------*/
+.container-contact1-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact1-form-btn {
+  min-width: 193px;
+  height: 50px;
+  border-radius: 25px;
+  background: #57b846;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact1-form-btn i {
+  margin-left: 7px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact1-form-btn:hover {
+  background: #333333;
+}
+
+.contact1-form-btn:hover i {
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+.navbar {
+  background: #343a40;
+  padding: 1rem 4rem;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+}
+
+#navbarNav>ul>li:nth-child(n)>a {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 0.8rem;
+}
+
+#navbarNav>ul>li:nth-child(n)>a:hover {
+  color: greenyellow;
+}
+
+#navbarNav>button {
+  color: whitesmoke;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: greenyellow;
+  padding: 0 0.8rem;
+  border-radius: 30px;
+}
+
+#navbarNav>button:hover {
+  color: whitesmoke;
+  background-color: green;
+}
+
+.btn .btn-primary btn-xl {
+  color: whitesmoke;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: greenyellow;
+  padding: 0 0.8rem;
+  border-radius: 30px;
+}
+
+/* Css for Navbar (After Login) */
+.avatar {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+#navbarNav>ul>li:nth-child(n)>a {
+  text-decoration: none;
+}
+
+#navbarNav>ul>li:nth-child(n)>a:hover {
+  text-decoration: none;
+}
+
+.navbar .dropdown-menu i {
+  font-size: 16px;
+  min-width: 22px;
+}
+
+.navbar .dropdown.open>a {
+  background: none !important;
+}
+
+.navbar .dropdown-menu {
+  border-radius: 1px;
+  border-color: #e5e5e5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.navbar .dropdown-menu li a {
+  text-decoration: none;
+  color: #777;
+  padding: 8px 20px;
+  line-height: normal;
+}
+
+.navbar .dropdown-menu li a:hover,
+.navbar .dropdown-menu li a:active {
+  color: #333;
+}
+
+.navbar .dropdown-menu .material-icons {
+  font-size: 21px;
+  line-height: 16px;
+  vertical-align: middle;
+  margin-top: -2px;
+}
