@@ -7,3 +7,5 @@ section and articles sections.
 • An effective Admin dashboard in which the admin can see all the messages and queries, and also add or remove new users
 based on their actions.
 • And also further we have added several features like uploading profile pic, announce to all your clients, reply to messages etc.
+
+Hosted project link: https://ecohub-mern.vercel.app/
